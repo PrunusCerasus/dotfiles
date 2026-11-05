@@ -1,0 +1,18 @@
+font-size = 16
+font = Iosevka Nerd Font ExtraBold 
+text-color = #eeeeee
+width = 500
+height = 400 
+
+outline-width = 0
+border-width = 3
+
+border-color = #30dfdf
+corner-radius = 0
+
+background-color = #000000aa
+background-opacity = 0.15
+
+selection-padding = 40
+selection-color = #eeeeee
+selection-background = #141414

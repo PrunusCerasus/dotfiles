@@ -1,0 +1,34 @@
+[language-server.qmlls]
+completion = true
+
+
+[[qml]]
+name = "qml"
+file-types = [".qml"]
+language-servers = ["qmlls"]
+
+
+#python
+[[language]]
+name = "python"
+language-servers = ["ruff", "ty"]
+auto-format = true
+formatter = { command = "ruff", args = ["format", "-"] }
+
+[language-server.ruff]
+command = "ruff"
+args = ["server"]
+
+[language-server.ty]
+command = "ty"
+args = ["server"]
+
+[language-server.ols]
+command = "ols"
+
+[[language]]
+name = "c-sharp"
+scope = "source.cs"
+file-types = ["cs"]
+roots = [".sln",".csproj"]
+language-servers = ["omnisharp"]
